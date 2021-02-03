@@ -16,7 +16,7 @@ class App extends React.Component {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae,
           veritatis quis tenetur consequuntur recusandae placeat. Nostrum culpa
           eligendi incidunt eos hic earum modi illo! Nam voluptatem impedit
-          repudiandae pariatur explicabo.
+          <Tooltip title="Hello world">Sonu Ram</Tooltip>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
             voluptatem magni recusandae sapiente perferendis ab unde modi, neque
@@ -42,7 +42,6 @@ class App extends React.Component {
             obcaecati unde quibusdam dictaAA
           </p>
         </div>
-        <Tooltip />
       </div>
     );
   }
