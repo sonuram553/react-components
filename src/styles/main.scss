@@ -1,1 +1,15 @@
 @import "./base/reset";
+
+body {
+  width: 70%;
+  margin: 0 auto;
+}
+
+p {
+  margin: 1em 0;
+}
+
+.container {
+  height: 300px;
+  overflow-y: auto;
+}
